@@ -18,12 +18,12 @@ class Solution:
 
         return longest
 
-#输入格式：100 4 200 1 3 2
+#输入格式1：100 4 200 1 3 2
 nums = list(map(int, input().split()))
 # input返回字符串类型的，所以记住要转成int。
 # split()方法默认按照多个连续空白字符分割
 
-#输入格式：[0,3,7,2,5,8,4,6,0,1]
+#输入格式2：[0,3,7,2,5,8,4,6,0,1]
 # nums = list(map(int, input()[1:-1].split(",")))
 # print(nums)
 
