@@ -11,7 +11,7 @@ class Solution:
 nums = list(map(int, input().split(",")))
 
 #输入格式：[0,1,0,3,12]
-#nums = list(map(int, input()[1:-1].split(",")))
+#nums = list(map(int, input().strip('[] ').split(",")))
 #print(nums)
 
 solution = Solution()
