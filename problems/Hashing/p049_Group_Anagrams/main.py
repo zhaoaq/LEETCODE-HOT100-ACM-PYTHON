@@ -12,7 +12,7 @@ class Solution:
             key = "".join(sorted(s)) #"".join()字符串连接起来，以空字符串连接
             res[key].append(s) #在建后面加上值
 
-        return list(res.values()) #dict.values()展示所有值
+        return list(res.values()) #dict名字.values()展示所有值
 
 #split() 方法用于将字符串按指定分隔符分割成多个子字符串，并返回一个列表（list）。注意返回的不是数组。
 #["eat","tea","tan","ate","nat","bat"]
