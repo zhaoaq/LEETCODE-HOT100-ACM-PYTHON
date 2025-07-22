@@ -1,0 +1,24 @@
+# 示例1：
+intersectVal = 8
+listA = [4,1,8,4,5]
+listB = [5,6,1,8,4,5]
+skipA = 2
+skipB = 3
+示例输出： Intersected at '8'
+
+# 示例2：
+intersectVal = 2
+listA = [1,9,1,2,4]
+listB = [3,2,4]
+skipA = 3
+skipB = 1
+示例输出：Intersected at '2'
+
+# 示例3:
+intersectVal = 0
+listA = [2,6,4]
+listB = [1,5]
+skipA = 3
+skipB = 2
+示例输出：No intersection
+
