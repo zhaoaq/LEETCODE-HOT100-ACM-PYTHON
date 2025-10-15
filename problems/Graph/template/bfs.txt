@@ -1,0 +1,11 @@
+1. bfs模版
+while queue 非空:
+	node = queue.pop()
+    for node 的所有相邻结点 m:
+        if m 未访问过:
+            queue.push(m)
+bfs适合图大但是解浅的情况，适合最短路径。必须有的是queue和visited。
+
+2. 最短路径
+每次循环记录depth
+
